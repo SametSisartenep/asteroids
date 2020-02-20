@@ -1,0 +1,18 @@
+Triangle Trian(int, int, int, int, int, int);
+Triangle Trianpt(Point, Point, Point);
+Point centroid(Triangle);
+void triangle(Image *, Triangle, int, Image *, Point);
+void filltriangle(Image *, Triangle, Image *, Point);
+Triangle rotatriangle(Triangle, double, Point);
+Vector Vec(double, double);
+Vector Vpt(Point);
+Vector addvec(Vector, Vector);
+Vector subvec(Vector, Vector);
+Vector mulvec(Vector, double);
+double dotvec(Vector, Vector);
+Vector normvec(Vector);
+double round(double);
+Point rotatept(Point, double, Point);
+int ptincircle(Point, Point, double);
+int triangleXcircle(Triangle, Point, double);
+void *emalloc(ulong);

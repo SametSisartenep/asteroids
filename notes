@@ -1,0 +1,3 @@
+• replace 'vlong t0, t;' by 'double t0, Δt;' so we only update t0 at the
+main loop and Δt every time we do dynamics.
+• implement bullets and sheer destruction.
